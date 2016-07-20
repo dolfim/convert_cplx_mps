@@ -64,5 +64,5 @@ int main(int argc, char ** argv)
         mps_out[i] = MPSTensor<matrix, symm>(mps_in[i].site_dim(),mps_in[i].row_dim(), mps_in[i].col_dim(), m, LeftPaired);
     }
     
-    save(argv[1], mps_out);
+    save(argv[2], mps_out);
 }
