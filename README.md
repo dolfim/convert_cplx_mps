@@ -2,7 +2,7 @@
 
 ## Configure
 
-1. Install ALPS with Install MPS framework activated
+1. Install ALPS with Install MPS framework activated: ```ALPS_INSTALL_MPS_FRAMEWORK=ON```
 
 1. Configure with all options:
 ```bash
