@@ -6,5 +6,5 @@
 
 1. Configure with all options:
 ```bash
-make -DALPS_DIR=$HOME/opt/alps-trunk/share/alps -DALPS_MPS_DIR=$HOME/opt/alps-trunk/share/alps ..
+cmake -DALPS_DIR=$HOME/opt/alps-trunk/share/alps -DALPS_MPS_DIR=$HOME/opt/alps-trunk/share/alps ..
 ```
